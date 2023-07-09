@@ -11,8 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Game />
-        <Demo animal="Bobcat" food="Pineapple" />
+        <Rando maxNum={7} />
       </div>
     );
   }
