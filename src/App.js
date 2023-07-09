@@ -11,7 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Rando maxNum={7} />
+        {/* <Rando maxNum={7} /> */}
+        {/* <Button /> */}
+        <BrokenClick />
       </div>
     );
   }
