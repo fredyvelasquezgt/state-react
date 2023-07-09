@@ -12,6 +12,7 @@ class App extends Component {
     return (
       <div className='App'>
         <Game />
+        <Demo animal="Bobcat" food="Pineapple" />
       </div>
     );
   }
