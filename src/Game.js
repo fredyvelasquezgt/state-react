@@ -8,4 +8,13 @@ class Game extends Componente {
             gameOver: false
         }
     }
+    render() {
+        return (
+            <div>
+                <h1>Your Score is: {this.state.score}</h1>
+            </div>
+        )
+    }
 }
+
+export default Game;
